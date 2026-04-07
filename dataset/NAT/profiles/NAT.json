@@ -47,12 +47,12 @@
                 "station_id": "CZQX-CTR"
               },
               {
-                "label": ["GOTA", "North", "(G)"],
-                "station_id": "CZQX-G-CTR"
+                "label": ["GOTA", "North", "QX 7"],
+                "station_id": "CZQX-7-CTR"
               },
               {
-                "label": ["GOTA", "South", "(O)"],
-                "station_id": "CZQX-O-CTR"
+                "label": ["GOTA", "South", "QX 6"],
+                "station_id": "CZQX-6-CTR"
               },
               {
                 "label": []
