@@ -70,7 +70,7 @@
           {
             "label": ["PääJoke"],
             "station_id": "EFIN_MIL"
-          }
+          },
           {
             "label": ["AMC", "MIL"],
             "station_id": "EFIN_MIL_FMP"
