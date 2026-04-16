@@ -126,6 +126,13 @@ facility_type = "CTR"
 profile_id = "EFIN"
 default_call_sources = ["EFIN_MIL"]
 
+id = "EFIN_MIL_FMP"
+prefixes = ["EFIN"]
+frequency = "131.525"
+facility_type = "FMP"
+profile_id = "EFIN"
+default_call_sources = ["EFIN_MIL_FMP"]
+
 [[positions]]
 id = "EFHK_E_APP"
 prefixes = ["EFHK"]
