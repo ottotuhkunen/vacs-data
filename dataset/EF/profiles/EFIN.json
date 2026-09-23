@@ -1,6 +1,7 @@
 {
   "id": "EFIN",
   "type": "Tabbed",
+  "view": "cycle",
   "tabs": [
     {
       "label": ["ETU", "SIVU"],
