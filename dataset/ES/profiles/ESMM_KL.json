@@ -1,6 +1,7 @@
 {
   "id": "ESMM_KL",
   "type": "Tabbed",
+  "view": "cycle",
   "tabs": [
     {
       "label": ["ESMM"],
@@ -66,8 +67,8 @@
             "station_id": "ESMM_8"
           },
           {
-            "label": ["MM", "IS"],
-            "station_id": "ESMM_IS"
+            "label": ["MM", "FIS-S"],
+            "station_id": "ESMM_FIS-S"
           },
           {
             "label": []
@@ -360,7 +361,7 @@
         "rows": 3,
         "keys": [
           {
-            "label": ["COB"],
+            "label": ["EAG"],
             "station_id": "ESPF"
           },
           {
@@ -368,7 +369,7 @@
             "station_id": "ESCR"
           },
           {
-            "label": ["BSH"],
+            "label": ["COB"],
             "station_id": "ESDK"
           },
           {

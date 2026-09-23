@@ -3,34 +3,167 @@
   "type": "Tabbed",
   "tabs": [
     {
-      "label": "Gatwick",
+      "label": "EGKK",
       "page": {
-        "rows": 10,
-        "client_page": {
-          "include": [
-            "EGKK*",
-            "EGLL_N*APP",
-            "EGLL_S*APP",
-            "THAMES*",
-            "EGLF_*APP",
-            "EGKR_*",
-            "LON_H*",
-            "LON_D*",
-            "LON_S*",
-            "LON_O*",
-            "LON_SC*",
-            "LON_CTR",
-            "LON__CTR",
-            "LTC_S*",
-            "LTC_CTR",
-            "EGTT_*",
-            "UK_*"
-          ],
-          "exclude": [],
-          "priority": ["*_FMP", "*_APP", "*_TWR", "*_GND", "*_DEL", "*_CTR"],
-          "frequencies": "HideAll",
-          "grouping": "None"
-        }
+        "rows": 5,
+        "keys": [
+          {
+            "label": ["GMP"],
+            "station_id": "EGKK_DEL"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["GMP", "AST"],
+            "station_id": "EGKK_A_DEL"
+          },
+          {
+            "label": ["PLN"],
+            "station_id": "EGKK_P_GND"
+          },
+          {
+            "label": ["GMC", "N"],
+            "station_id": "EGKK_N_GND"
+          },
+          {
+            "label": ["GMC", "S"],
+            "station_id": "EGKK_S_GND"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["AIR"],
+            "station_id": "EGKK_TWR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["EGKR"],
+            "station_id": "EGKR_TWR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["FIN"],
+            "station_id": "EGKK_F_APP"
+          },
+          {
+            "label": ["INT"],
+            "station_id": "EGKK_APP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["EGKA"],
+            "station_id": "EGKA_APP"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["SOLENT", "RAD"],
+            "station_id": "SOLENT_APP"
+          },
+          {
+            "label": ["TC", "NW"],
+            "station_id": "LTC_NW_CTR"
+          },
+          {
+            "label": ["TC", "SW"],
+            "station_id": "LTC_SW_CTR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["LL", "INT S"],
+            "station_id": "EGLL_S_APP"
+          },
+          {
+            "label": ["LF", "RAD"],
+            "station_id": "EGLF_APP"
+          },
+          {
+            "label": ["TC", "NE"],
+            "station_id": "LTC_NE_CTR"
+          },
+          {
+            "label": ["TC", "SE"],
+            "station_id": "LTC_SE_CTR"
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["TC", "TMS"],
+            "station_id": "THAMES_APP"
+          },
+          {
+            "label": ["LF", "LARS"],
+            "station_id": "EGLF_L_APP"
+          }
+        ]
+      }
+    },
+    {
+      "label": ["SUP", "Flow"],
+      "page": {
+        "rows": 2,
+        "keys": [
+          {
+            "label": ["UK", "FMP"],
+            "station_id": "UK_FMP"
+          },
+          {
+            "label": ["LTC", "FMP"],
+            "station_id": "LTC_FMP"
+          },
+          {
+            "label": ["UK", "FMP", "2"],
+            "station_id": "UK_A_FMP"
+          },
+          {
+            "label": ["LTC", "GS"],
+            "station_id": "LTC_GS_CTR"
+          },
+          {
+            "label": ["UK", "FMP", "3"],
+            "station_id": "UK_B_FMP"
+          },
+          {
+            "label": ["LAC", "GS"],
+            "station_id": "LON_GS_CTR"
+          }
+        ]
       }
     }
   ]

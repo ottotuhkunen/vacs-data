@@ -1,0 +1,30 @@
+{
+  "id": "EIKN",
+  "type": "Tabbed",
+  "view": "split",
+  "tabs": [
+    {
+      "label": ["EIKN"],
+      "page": {
+        "rows": 4,
+        "keys": [
+          {
+            "label": ["EISN", "", ""],
+            "color": "mint",
+            "station_id": "EISN_LN_CTR"
+          },
+          {
+            "label": ["FIS"],
+            "color": "mint",
+            "station_id": "EISN_I_CTR"
+          },
+          {
+            "label": ["EISG"],
+            "color": "lavender",
+            "station_id": "EISG_TWR"
+          }
+        ]
+      }
+    }
+  ]
+}

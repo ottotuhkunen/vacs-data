@@ -147,7 +147,7 @@ default_call_sources = [
 [[positions]]
 id = "LOVV_M_CTR"
 prefixes = ["LOVV"]
-frequency = "131.025"
+frequency = "131.030"
 facility_type = "CTR"
 profile_id = "LOVV"
 default_call_sources = ["LOVV_M_CTR"]
@@ -336,6 +336,14 @@ frequency = "123.725"
 facility_type = "APP"
 profile_id = "LOVV"
 default_call_sources = ["LOWS_APP"]
+
+[[positions]]
+id = "LOWS_F_APP"
+prefixes = ["LOWS"]
+frequency = "132.460"
+facility_type = "APP"
+profile_id = "LOVV"
+default_call_sources = ["LOWS_F_APP"]
 
 [[positions]]
 id = "LOWW_APP"

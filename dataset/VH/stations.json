@@ -181,7 +181,7 @@
     },
     {
       "id": "VHHK_E_CTR",
-      "parent_id": "VHHK_W_CTR",
+      "parent_id": "VHHK_S_CTR",
       "controlled_by": ["VHHK_E_CTR"]
     },
     {
@@ -200,48 +200,8 @@
       "controlled_by": ["VHHK_FMP"]
     },
     {
-      "id": "RCAA_W_CTR",
-      "controlled_by": ["RCAA_W_CTR"]
-    },
-    {
-      "id": "RCAA_E_CTR",
-      "parent_id": "RCAA_W_CTR",
-      "controlled_by": ["RCAA_E_CTR"]
-    },
-    {
-      "id": "RCAA_S_CTR",
-      "parent_id": "RCAA_E_CTR",
-      "controlled_by": ["RCAA_S_CTR"]
-    },
-    {
-      "id": "RCAA_L_CTR",
-      "controlled_by": ["RCAA_L_CTR", "RCAA_W_CTR"]
-    },
-    {
-      "id": "RCAA_N_CTR",
-      "controlled_by": ["RCAA_N_CTR", "RCAA_L_CTR", "RCAA_W_CTR"]
-    },
-    {
       "id": "ASEA_FSS",
       "controlled_by": ["ASEA_FSS"]
-    },
-    {
-      "id": "RPHI_1_CTR",
-      "parent_id": "RPHI_N_CTR",
-      "controlled_by": ["RPHI_1_CTR"]
-    },
-    {
-      "id": "RPHI_N_CTR",
-      "parent_id": "RPHI_CTR",
-      "controlled_by": ["RPHI_N_CTR"]
-    },
-    {
-      "id": "RPHI_CTR",
-      "controlled_by": ["RPHI_CTR"]
-    },
-    {
-      "id": "ZBBB_FSS",
-      "controlled_by": ["ZBBB_FSS"]
     },
     {
       "id": "ZSSS_S_CTR",
@@ -250,39 +210,22 @@
     },
     {
       "id": "ZSSS_CTR",
-      "parent_id": "ZSHA_CTR",
       "controlled_by": ["ZSSS_CTR"]
     },
     {
-      "id": "ZSHA_CTR",
-      "controlled_by": ["ZSHA_CTR"]
-    },
-    {
       "id": "ZSAM_CTR",
-      "parent_id": "ZSHA_CTR",
       "controlled_by": ["ZSAM_CTR"]
     },
     {
-      "id": "ZJSA_CTR",
-      "controlled_by": ["ZJSA_CTR"]
-    },
-    {
       "id": "ZJSY_L_CTR",
-      "parent_id": "ZJSA_CTR",
       "controlled_by": ["ZJSY_L_CTR"]
     },
     {
       "id": "ZJSY_O_CTR",
-      "parent_id": "ZJSA_CTR",
       "controlled_by": ["ZJSY_O_CTR"]
     },
     {
-      "id": "ZGZU_CTR",
-      "controlled_by": ["ZGZU_CTR"]
-    },
-    {
       "id": "ZGNN_CTR",
-      "parent_id": "ZGZU_CTR",
       "controlled_by": ["ZGNN_CTR"]
     },
     {
@@ -292,13 +235,7 @@
     },
     {
       "id": "ZGOW_APP",
-      "controlled_by": [
-        "ZGOW_APP",
-        "ZGGG_CTR",
-        "ZGZU_CTR",
-        "ZSAM_CTR",
-        "ZSHA_CTR"
-      ]
+      "controlled_by": ["ZGOW_APP", "ZGGG_CTR", "ZSAM_CTR"]
     },
     {
       "id": "ZGJD_APP",
@@ -307,13 +244,7 @@
     },
     {
       "id": "ZGGG_CTR",
-      "parent_id": "ZGZU_CTR",
       "controlled_by": ["ZGGG_CTR"]
-    },
-    {
-      "id": "ZGGG_APP",
-      "parent_id": "ZGGG_CTR",
-      "controlled_by": ["ZGGG_APP"]
     }
   ]
 }
