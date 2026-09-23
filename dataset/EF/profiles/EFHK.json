@@ -1,6 +1,7 @@
 {
   "id": "EFHK",
   "type": "Tabbed",
+  "view": "cycle",
   "tabs": [
     {
       "label": ["ETU", "SIVU"],
